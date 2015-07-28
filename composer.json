@@ -11,5 +11,10 @@
             "email": "mail@zhangjicheng.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Weann\\Socialite\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
