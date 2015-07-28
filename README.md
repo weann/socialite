@@ -1,7 +1,7 @@
 # Laravel Socialite
 Laravel 第三方登录，支持微信、QQ。
 
-# 安装
+## 安装
 使用 composer 命令
 ```shell
 composer require weann/socialite
@@ -17,7 +17,7 @@ Weann\Socialite\SocialiteServiceProvider::class,
 'Socialite' => Weann\Socialite\Facades\Socialite::class,
 ```
 
-# 使用
+## 使用
 将用户重定向到授权页面。
 ```php
 Route::get('/', function () {
