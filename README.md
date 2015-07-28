@@ -18,6 +18,15 @@ Weann\Socialite\SocialiteServiceProvider::class,
 ```
 
 ## 使用
+配置文件 `config/services.php`
+```php
+'wechat' => [
+    'client_id' => 'APP_ID',
+    'client_secret' => 'APP_SECRET',
+    'redirect' => 'CALLBACK_URL'
+],
+```
+
 将用户重定向到授权页面。
 ```php
 Route::get('/', function () {
