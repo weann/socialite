@@ -1,0 +1,15 @@
+{
+    "name": "weann/socialite",
+    "description": "Laravel wrapper around OAuth 1 & OAuth 2 libraries.",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jicheng Zhang",
+            "email": "mail@zhangjicheng.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
